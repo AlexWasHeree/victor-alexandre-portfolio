@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --font-1: 'Fira Sans', sans-serif;
+  --font-2: 'Poppins', sans-serif;
+  --font-3: 'Roboto', sans-serif;
+}
+
+
+.titulo {
+  font-family: var(--font-1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  color: #09011C;
+}
+
+.subtitulo {
+  font-family: var(--font-1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  color: #5E429A;
+}
+
+.terceiroTitulo {
+  font-family: var(--font-1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #5E429A;
+}
+
+.funcional {
+  font-family: var(--font-3);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #8870BC;
+}
+
+.subFuncional {
+  font-family: var(--font-3);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #09011C;
+}
+
+.body {
+  font-family: var(--font-2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: 0.015em;
+  color: #1A0843;
+}
