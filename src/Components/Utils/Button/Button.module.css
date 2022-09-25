@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 2px solid #B09ED7;
+  box-shadow: 0px 4px 16px rgba(94, 66, 154, 0.4);
+  border-radius: 6px;
+  cursor: pointer;
+  max-width: fit-content;
+}
+

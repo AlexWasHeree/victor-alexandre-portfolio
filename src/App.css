@@ -8,60 +8,80 @@ body {
   --font-1: 'Fira Sans', sans-serif;
   --font-2: 'Poppins', sans-serif;
   --font-3: 'Roboto', sans-serif;
+  --color-01: #FFFFFF;
+  --color-02: #F8F3FF;
+  --color-03: #D4C7EF;
+  --color-04: #C2B2E3;
+  --color-05: #B09ED7;
+  --color-06: #A18ECA;
+  --color-07: #947FC2;
+  --color-08: #8870BC;
+  --color-09: #775EAE;
+  --color-10: #5E429A;
+  --color-11: #442A7D;
+  --color-12: #33196D;
+  --color-13: #1A0843;
+  --color-14: #09011C;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;  
+  padding-left: 20px;
+  padding-right: 20px;
+} 
 
-.titulo {
+.title, h1 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 500;
   font-size: 3.75rem;
   line-height: 4.5rem;
-  color: #09011C;
+  color: var(--color-14);
 }
 
-.subtitulo {
+.subtitle, h2 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 500;
   font-size: 2.25rem;
   line-height: 2.875rem;
-  color: #5E429A;
+  color: var(--color-10);
 }
 
-.terceiroTitulo {
+.thirdTitle, h3 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  color: #5E429A;
+  color: var(--color-10);
 }
 
-.funcional {
+.functional {
   font-family: var(--font-3);
   font-style: normal;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  color: #8870BC;
+  color: var(--color-8);
 }
 
-.subFuncional {
+.subFunctional {
   font-family: var(--font-3);
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
-  color: #09011C;
+  color: var(--color-14);
 }
 
-.body {
+.body, p {
   font-family: var(--font-2);
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 2rem;
   letter-spacing: 0.015em;
-  color: #1A0843;
+  color: var(--color-13);
 }

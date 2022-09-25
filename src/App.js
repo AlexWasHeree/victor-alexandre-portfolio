@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
+import Intro from './Components/Intro/Intro';
+import About from './Components/About/About';
+import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="titulo">titulo</h1>
-      <h2 className="subtitulo">subtitulo</h2>
-      <h3 className="terceiroTitulo">terceiroTitulo</h3>
-      <p className="body">body</p>
-      <p className="funcional">funcional</p>
-      <p className="subFuncional">subFuncional</p>
+      <Header />
+      <Intro />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }
