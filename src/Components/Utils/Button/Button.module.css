@@ -11,5 +11,7 @@
   border-radius: 6px;
   cursor: pointer;
   max-width: fit-content;
+  min-width: 11.25rem;
+  min-height: 2.5rem;
 }
 

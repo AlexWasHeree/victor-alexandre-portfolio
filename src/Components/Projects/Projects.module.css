@@ -1,0 +1,10 @@
+.background {
+  background: linear-gradient(0deg, #EEE4FC 49.97%, #FFFFFF 100%);
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
