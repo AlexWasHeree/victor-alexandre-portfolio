@@ -13,5 +13,10 @@
   max-width: fit-content;
   min-width: 11.25rem;
   min-height: 2.5rem;
+  transition: all 0.2s;
 }
 
+.button:hover {
+  box-shadow: 0px 1px 14px rgba(94, 66, 154, 0.4);
+  background: #F6F2FF;
+}
