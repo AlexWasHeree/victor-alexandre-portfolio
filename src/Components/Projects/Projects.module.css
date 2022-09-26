@@ -7,4 +7,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8rem;
+  padding-bottom: 16rem;
+}
+
+.content h1 {
+  margin-bottom: 4rem;
 }

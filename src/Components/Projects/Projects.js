@@ -19,6 +19,24 @@ const Projects = () => {
           src="https://alexmoview.netlify.app/"
           mockup={<MacBook />}
         />
+        <ProjectCard
+          project="Bikcraft"
+          description="Bikcraft is a website that sells eletric bikes. It was made
+          only with HTML, CSS and javascript. I realized this project 
+          during the Origamid classes as my first project there. "
+          src="https://github.com/AlexWasHeree/Bikcraft"
+          mockup={<Imac />}
+          rightCard
+        />
+        <ProjectCard
+          project="Dogs"
+          description="Dogs is a social network for photos of dogs containing info
+          like weight, name and race. It was made with React.js and 
+          consumes an API made on Wordpress. It was my last project
+          from Origamid."
+          src="https://github.com/AlexWasHeree/Dogs"
+          mockup={<Iphone />}
+        />
       </div>
     </div>
   );
