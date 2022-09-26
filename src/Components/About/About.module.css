@@ -1,9 +1,11 @@
 .background {
   height: 100vh;
+  background: #fff;
 }
 
 .content {
   position: relative;
+  z-index: 1;
 }
 
 .content h1 {

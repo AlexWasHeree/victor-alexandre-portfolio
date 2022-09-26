@@ -1,0 +1,40 @@
+.background {
+  background: linear-gradient(128.65deg, rgba(26, 8, 67, 0.8) 5.7%, rgba(26, 8, 67, 0.4) 113.03%);
+  height: 26rem;
+}     
+
+.content {
+  display: grid;
+  grid-template-columns: 5fr 5fr 2fr;
+}
+
+.content h1 {
+  padding-top: 2.4rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 4.5rem;
+}
+
+.contactInfo h3 {
+  color:#09011C;
+  font-weight: 500;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 4rem;
+}
+
+.developedBy {
+  display: flex;
+  justify-content: center;
+  gap: .4rem;
+  color: #1A0843;
+  margin-top: 5rem;
+}
