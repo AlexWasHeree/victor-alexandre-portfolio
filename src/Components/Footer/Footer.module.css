@@ -20,7 +20,7 @@
 }
 
 .contactInfo h3 {
-  color:#09011C;
+  color: var(--color-14);
   font-weight: 500;
 }
 
@@ -35,6 +35,6 @@
   display: flex;
   justify-content: center;
   gap: .4rem;
-  color: #1A0843;
+  color: var(--color-13);
   margin-top: 5rem;
 }

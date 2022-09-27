@@ -3,7 +3,6 @@ import '../../App.css';
 import Button from '../Utils/Button/Button';
 import styles from './Intro.module.css';
 import { ReactComponent as HandCoding } from '../../Assets/Hand-coding.svg';
-import resume from '../../Assets/resume.pdf';
 
 const Intro = () => {
   return (
