@@ -11,7 +11,7 @@ const Header = () => {
     <div className={styles.background}>
       <header className={styles.header}>
         <div className={`${styles.content} container`}>
-          <Logo />
+          <Logo className={styles.logo} />
           <div className={styles.menu}>
             <h3 className="subFunctional">ABOUT</h3>
             <h3 className="subFunctional">PROJECTS</h3>

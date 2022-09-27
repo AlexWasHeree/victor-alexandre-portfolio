@@ -22,6 +22,10 @@
   padding: 16px;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .menu {
   display: flex;
   gap: 24px;
