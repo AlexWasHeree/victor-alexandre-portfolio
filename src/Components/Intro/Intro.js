@@ -3,6 +3,7 @@ import '../../App.css';
 import Button from '../Utils/Button/Button';
 import styles from './Intro.module.css';
 import { ReactComponent as HandCoding } from '../../Assets/Hand-coding.svg';
+import resume from '../../Assets/resume.pdf';
 
 const Intro = () => {
   return (
@@ -14,7 +15,12 @@ const Intro = () => {
           <h2>
             Front-end developer & <br /> ux/ui designer
           </h2>
-          <Button content="Download CV" />
+          <a
+            href="https://drive.google.com/file/d/1l0uAo9S9Pb7qlXTtdhIOZDv4kqvnJmHs/view?usp=sharing"
+            download="resume.pdf"
+          >
+            <Button content="Download CV" />
+          </a>
         </div>
         <div className={styles.introImage}>
           <HandCoding />
