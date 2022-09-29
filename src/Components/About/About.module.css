@@ -26,7 +26,6 @@
   max-width: 48rem;
 }
 
-
 .decorations {
   position: absolute;
   z-index: -1;
@@ -50,4 +49,25 @@
 .deco4 {
   left: 160px;  
   bottom: -30px;
+}
+
+@media (max-width:900px) {
+  .text {
+    padding: 100px 35px;
+    max-width: 42rem;
+  }
+  .deco1 {
+    right: 50px;
+  }
+  .deco2 {
+    right: 200px;
+    bottom: 10px;
+  }
+  .deco3 {
+    left: 240px;
+  }
+  .deco4 {
+    left: 60px;
+    bottom: -40px;
+  }
 }

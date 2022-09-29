@@ -89,3 +89,28 @@ a {
   letter-spacing: 0.015em;
   color: var(--color-13);
 }
+
+@media (max-width: 900px) {
+  .title, h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .subtitle, h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .thirdTitle, h3 {
+    font-size: 1.1rem;
+  }
+  .functional {
+    font-size: 1.125rem;
+  }
+  .subFunctional {
+    font-size: .9rem;
+    line-height: 1rem;
+  }
+  .body, p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}

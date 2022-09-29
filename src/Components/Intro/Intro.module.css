@@ -11,6 +11,13 @@
   padding-top: 15rem;
 }
 
+@media (max-width: 1260px) {
+  .content {
+    padding-left: 1.675rem;
+    padding-right: 1.675rem;
+  }
+}
+
 .introText {
   display: flex;
   flex-direction: column;
@@ -31,6 +38,12 @@
   z-index: -1;
   top: -16px;
   left: -20px;
+}
+
+@media (max-width: 900px) {
+  .introText h3::before {
+    top: -18px;
+  }
 }
 
 .introText h2 {
