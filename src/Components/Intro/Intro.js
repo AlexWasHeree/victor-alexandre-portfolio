@@ -11,14 +11,13 @@ const Intro = () => {
         <div className={styles.introText}>
           <h3>Hello! i'm</h3>
           <h1>Victor Alexandre</h1>
-          <h2>
-            Front-end developer & <br /> ux/ui designer
-          </h2>
+          <h2>Front-end developer &</h2>
+          <h2 className={styles.bottom}>ux/ui designer</h2>
           <a
             href="https://drive.google.com/file/d/1l0uAo9S9Pb7qlXTtdhIOZDv4kqvnJmHs/view?usp=sharing"
             download="resume.pdf"
           >
-            <Button content="Download CV" />
+            <Button className={styles.button} content="Download CV" />
           </a>
         </div>
         <div className={styles.introImage}>
