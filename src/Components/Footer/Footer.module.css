@@ -38,3 +38,17 @@
   color: var(--color-13);
   margin-top: 5rem;
 }
+
+@media (max-width:800px) {
+  .content {
+    grid-template-columns: 5fr 5fr;
+  }
+  .socials {
+    flex-direction: row;
+    grid-column-start: -2;
+    padding-top: 2rem;
+  }
+  .developedBy {
+    margin-top: 4rem;
+  }
+}
