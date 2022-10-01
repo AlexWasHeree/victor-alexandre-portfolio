@@ -24,4 +24,24 @@
 .mockup {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .card {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .text {
+    grid-row: 1;
+    max-width: 80vw;
+  }
+  .mockup::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60vw;
+    background-color: var(--color-03);
+    bottom: -40px;
+  }
 }
