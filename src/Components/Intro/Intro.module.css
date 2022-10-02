@@ -11,13 +11,6 @@
   padding-top: 15rem;
 }
 
-@media (max-width: 1260px) {
-  .content {
-    padding-left: 1.675rem;
-    padding-right: 1.675rem;
-  }
-}
-
 .introText {
   display: flex;
   flex-direction: column;
