@@ -1,12 +1,23 @@
 import React from 'react';
 import '../../App.css';
 import styles from './Header.module.css';
+import '../Utils/hamburguer/hamburguer.css';
 import { ReactComponent as Logo } from '../../Assets/victor-alexandre.svg';
 import { ReactComponent as Github } from '../../Assets/github.svg';
 import { ReactComponent as Behance } from '../../Assets/behance.svg';
 import { ReactComponent as Linkedin } from '../../Assets/linkedin.svg';
 
 const Header = () => {
+  const [active, setActive] = React.useState('');
+
+  function handleClick() {
+    if (active === '') {
+      setActive('is-active');
+    } else {
+      setActive('');
+    }
+  }
+
   return (
     <div className={styles.background}>
       <header className={styles.header}>
@@ -28,6 +39,16 @@ const Header = () => {
               <Linkedin />
             </a>
           </div>
+          <button
+            id="menu-hamburguer"
+            onClick={handleClick}
+            className={`${active} hamburger hamburger--elastic`}
+            type="button"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
         </div>
       </header>
     </div>
