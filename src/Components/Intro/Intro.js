@@ -15,6 +15,8 @@ const Intro = () => {
           <h2 className={styles.bottom}>ux/ui designer</h2>
           <a
             href="https://drive.google.com/file/d/1l0uAo9S9Pb7qlXTtdhIOZDv4kqvnJmHs/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             download="resume.pdf"
           >
             <Button className={styles.button} content="Download CV" />

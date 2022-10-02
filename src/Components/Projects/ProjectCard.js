@@ -9,7 +9,7 @@ const ProjectCard = ({ project, description, src, mockup, rightCard }) => {
         <div className={styles.text}>
           <h2>{project}</h2>
           <p>{description}</p>
-          <a href={src}>
+          <a href={src} target="_blank" rel="noopener noreferrer">
             <Button content="Visit" color="#8870BC" />
           </a>
         </div>
@@ -23,7 +23,7 @@ const ProjectCard = ({ project, description, src, mockup, rightCard }) => {
         <div className={styles.text}>
           <h2>{project}</h2>
           <p>{description}</p>
-          <a href={src}>
+          <a href={src} target="_blank" rel="noopener noreferrer">
             <Button content="Visit" color="#8870BC" />
           </a>
         </div>

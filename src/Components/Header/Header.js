@@ -40,7 +40,6 @@ const Header = () => {
             </a>
           </div>
           <button
-            id="menu-hamburguer"
             onClick={handleClick}
             className={`${active} hamburger hamburger--elastic`}
             type="button"
