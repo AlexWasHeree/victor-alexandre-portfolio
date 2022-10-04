@@ -1,6 +1,7 @@
 .background {
   background: linear-gradient(128.65deg, rgba(26, 8, 67, 0.8) 5.7%, rgba(26, 8, 67, 0.4) 113.03%);
-  height: 26rem;
+  
+  min-height: max-content;
 }     
 
 .content {
@@ -24,7 +25,7 @@
   font-weight: 500;
 }
 
-.socials {
+.socialsFooter {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -37,13 +38,14 @@
   gap: .4rem;
   color: var(--color-13);
   margin-top: 5rem;
+  padding-bottom: 1rem;
 }
 
-@media (max-width:800px) {
+@media (max-width:820px) {
   .content {
-    grid-template-columns: 5fr 5fr;
+    grid-template-columns: 3fr 2fr;
   }
-  .socials {
+  .socialsFooter {
     flex-direction: row;
     grid-column-start: -2;
     padding-top: 2rem;
@@ -51,4 +53,11 @@
   .developedBy {
     margin-top: 4rem;
   }
+}
+
+@media (max-width:600px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  
 }

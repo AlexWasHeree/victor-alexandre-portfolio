@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import { ReactComponent as Github } from '../../Assets/github.svg';
-import { ReactComponent as Behance } from '../../Assets/behance.svg';
-import { ReactComponent as Linkedin } from '../../Assets/linkedin.svg';
+import { ReactComponent as Github } from '../../Assets/githubCopy.svg';
+import { ReactComponent as Behance } from '../../Assets/behanceCopy.svg';
+import { ReactComponent as Linkedin } from '../../Assets/linkedinCopy.svg';
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
           <h3>Campina Grande - PB - Brazil</h3>
         </div>
-        <div className={styles.socials}>
+        <div className={styles.socialsFooter}>
           <a href="https://github.com/AlexWasHeree">
             <Github width="42" height="42" />
           </a>
