@@ -9,12 +9,15 @@ import { ReactComponent as Linkedin } from '../../Assets/linkedin.svg';
 
 const Header = () => {
   const [active, setActive] = React.useState('');
+  const [aside, setAside] = React.useState('');
 
   function handleClick() {
     if (active === '') {
       setActive('is-active');
+      setAside(styles.ativo);
     } else {
       setActive('');
+      setAside('');
     }
   }
 
@@ -48,6 +51,11 @@ const Header = () => {
               <span class="hamburger-inner"></span>
             </span>
           </button>
+          <aside id="id" className={`${aside} ${styles.menuLateral}`}>
+            <h3 className="subFunctional">ABOUT</h3>
+            <h3 className="subFunctional">PROJECTS</h3>
+            <h3 className="subFunctional">CONTACT</h3>
+          </aside>
         </div>
       </header>
     </div>

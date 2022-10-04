@@ -115,25 +115,14 @@ a {
   }
 }
 
-@media (max-width: 800px) {
-  .title, h1 {
-    font-size: 3.5rem;
-    line-height: 4rem;
-  }
-  .subtitle, h2 {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-  .thirdTitle, h3 {
-    font-size: 1.1rem;
-  }
-  .functional {
-    font-size: 1.125rem;
-  }
+@media (max-width: 820px) {
   .subFunctional {
-    font-size: .9rem;
-    line-height: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
+}
+
+@media (max-width: 800px) {
   .body, p {
     font-size: .9rem;
     line-height: 1.5rem;
