@@ -46,12 +46,12 @@
   gap: 2.5rem;
 }
 
-.menu h3 {
+.menu a {
   position: relative;
   cursor: pointer;
 }
 
-.menu h3::after {
+.menu a::after {
   content: '';
   background-color: black;
   height: 2px;
@@ -62,7 +62,7 @@
   transition: all 0.3s;
 }
 
-.menu h3:hover::after {
+.menu a:hover::after {
   width: 104%;
 }
 

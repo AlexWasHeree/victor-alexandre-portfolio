@@ -6,7 +6,7 @@ import { ReactComponent as Linkedin } from '../../Assets/linkedinCopy.svg';
 
 const Footer = () => {
   return (
-    <div className={styles.background}>
+    <div id="contact" className={styles.background}>
       <footer className={`${styles.content} container`}>
         <h1>Contact me</h1>
         <div className={styles.contactInfo}>

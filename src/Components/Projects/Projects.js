@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div className={styles.background}>
+    <div id="projects" className={styles.background}>
       <div className={`${styles.content} container`}>
         <h1>My Projects</h1>
         <ProjectCard

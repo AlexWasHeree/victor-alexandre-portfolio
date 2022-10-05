@@ -27,9 +27,15 @@ const Header = () => {
         <div className={`${styles.content} container`}>
           <Logo className={styles.logo} />
           <div className={styles.menu}>
-            <h3 className="subFunctional">ABOUT</h3>
-            <h3 className="subFunctional">PROJECTS</h3>
-            <h3 className="subFunctional">CONTACT</h3>
+            <a href="#about" className="subFunctional">
+              ABOUT
+            </a>
+            <a href="#projects" className="subFunctional">
+              PROJECTS
+            </a>
+            <a href="#contact" className="subFunctional">
+              CONTACT
+            </a>
           </div>
           <div className={styles.socials}>
             <a href="https://github.com/AlexWasHeree">

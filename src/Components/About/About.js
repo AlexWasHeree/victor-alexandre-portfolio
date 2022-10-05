@@ -7,7 +7,7 @@ import { ReactComponent as Deco4 } from '../../Assets/deco-4.svg';
 
 const About = () => {
   return (
-    <div className={styles.background}>
+    <div id="about" className={styles.background}>
       <div className={`${styles.content} container`}>
         <h1>About me</h1>
         <div className={styles.text}>
