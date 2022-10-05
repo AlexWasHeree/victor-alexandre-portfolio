@@ -44,7 +44,7 @@ const Header = () => {
           </div>
           <button
             onClick={handleClick}
-            className={`${active} hamburger hamburger--elastic`}
+            className={`${active} ${styles.menuHamburguer} hamburger hamburger--elastic`}
             type="button"
           >
             <span class="hamburger-box">
