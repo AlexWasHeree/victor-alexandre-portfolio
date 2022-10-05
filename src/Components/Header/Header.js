@@ -12,7 +12,7 @@ const Header = () => {
   const [aside, setAside] = React.useState('');
 
   function handleClick() {
-    if (active === '') {
+    if (active === '' && aside === '') {
       setActive('is-active');
       setAside(styles.ativo);
     } else {

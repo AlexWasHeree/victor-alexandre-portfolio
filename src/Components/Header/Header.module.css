@@ -107,3 +107,9 @@
 .ativo {
   display: flex;
 }
+
+@media (min-width:820px) {
+  .menuLateral {
+    display: none;
+  }
+}
