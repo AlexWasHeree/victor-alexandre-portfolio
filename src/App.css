@@ -165,6 +165,10 @@ a {
     font-size: 0.9rem;
     line-height: 1.125rem;
   }
+  .subFunctional {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
   .functional {
     font-size: 0.9rem;
   }
