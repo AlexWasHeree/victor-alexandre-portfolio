@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   --font-1: 'Fira Sans', sans-serif;
   --font-2: 'Poppins', sans-serif;
@@ -22,6 +26,7 @@ body {
   --color-12: #33196D;
   --color-13: #1A0843;
   --color-14: #09011C;
+
 }
 
 a {

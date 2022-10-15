@@ -6,7 +6,7 @@ import { ReactComponent as HandCoding } from '../../Assets/Hand-coding.svg';
 
 const Intro = () => {
   return (
-    <div className={styles.background}>
+    <div id="intro" className={styles.background}>
       <div className={`${styles.content} container`}>
         <div className={styles.introText}>
           <h3>Hello! i'm</h3>

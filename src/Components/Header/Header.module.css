@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding:  5px 20px 0 20px;
+  padding: 5px 20px 0 20px;
   z-index: 10;
 }
 
@@ -75,7 +75,6 @@
   display: none;
 }
 
-
 @media (max-width: 820px) {
   .menu {
     display: none;
@@ -93,48 +92,49 @@
   top: 80px;
   right: 30px;
 
-
   display: none;
   flex-direction: column;
-  gap: 2.25rem;
+  /* gap: 2.25rem; */
 
   background-color: var(--color-03);
   backdrop-filter: blur(12px);
-  padding: 1rem 2rem;
   border-radius: 8px;
+}
+
+.menuLateral div {
+  padding: 1rem 2rem;
 }
 
 .ativo {
   display: flex;
 }
 
-@media (min-width:820px) {
+@media (min-width: 820px) {
   .menuLateral {
     display: none;
   }
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .logo {
     width: 150px;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .logo {
     width: 130px;
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .logo {
     width: 120px;
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .menuHamburguer {
     padding-top: 2px;
   }
 }
-

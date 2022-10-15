@@ -10,6 +10,7 @@ import { ReactComponent as Linkedin } from '../../Assets/linkedin.svg';
 const Header = () => {
   const [active, setActive] = React.useState('');
   const [aside, setAside] = React.useState('');
+  const [focus, setFocus] = React.useState('');
 
   function handleClick() {
     if (active === '' && aside === '') {
@@ -25,7 +26,9 @@ const Header = () => {
     <div className={styles.background}>
       <header className={styles.header}>
         <div className={`${styles.content} container`}>
-          <Logo className={styles.logo} />
+          <a href="#intro">
+            <Logo className={styles.logo} />
+          </a>
           <div className={styles.menu}>
             <a href="#about" className="subFunctional">
               ABOUT
@@ -58,9 +61,21 @@ const Header = () => {
             </span>
           </button>
           <aside id="id" className={`${aside} ${styles.menuLateral}`}>
-            <h3 className="subFunctional">ABOUT</h3>
-            <h3 className="subFunctional">PROJECTS</h3>
-            <h3 className="subFunctional">CONTACT</h3>
+            <div>
+              <a href="#about" className="subFunctional">
+                ABOUT
+              </a>
+            </div>
+            <div>
+              <a href="#projects" className="subFunctional">
+                PROJECTS
+              </a>
+            </div>
+            <div>
+              <a href="#contact" className="subFunctional">
+                CONTACT
+              </a>
+            </div>
           </aside>
         </div>
       </header>
