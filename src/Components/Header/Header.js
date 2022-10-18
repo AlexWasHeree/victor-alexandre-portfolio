@@ -10,7 +10,6 @@ import { ReactComponent as Linkedin } from '../../Assets/linkedin.svg';
 const Header = () => {
   const [active, setActive] = React.useState('');
   const [aside, setAside] = React.useState('');
-  const [focus, setFocus] = React.useState('');
 
   function handleClick() {
     if (active === '' && aside === '') {
