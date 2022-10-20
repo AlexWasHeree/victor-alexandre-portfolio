@@ -44,6 +44,7 @@ const Projects = () => {
           project from a codar.me's bootcamp made on october from 2022."
           src="https://github.com/AlexWasHeree/Dogs"
           mockup={<Iphone />}
+          rightCard
         />
       </div>
     </div>
