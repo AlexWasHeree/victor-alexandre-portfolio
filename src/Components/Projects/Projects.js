@@ -37,6 +37,14 @@ const Projects = () => {
           src="https://github.com/AlexWasHeree/Dogs"
           mockup={<Iphone />}
         />
+        <ProjectCard
+          project="CupGuesser"
+          description="CupGuesser is a web application made for doing hunches on Qatar's
+          2022 cup games, for fron-end i used react.js and for back-end node.js. it was a
+          project from a codar.me's bootcamp made on october from 2022."
+          src="https://github.com/AlexWasHeree/Dogs"
+          mockup={<Iphone />}
+        />
       </div>
     </div>
   );
