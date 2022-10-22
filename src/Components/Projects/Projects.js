@@ -34,15 +34,15 @@ const Projects = () => {
           like weight, name and race. It was made with React.js and 
           consumes an API made on Wordpress. It was my last project
           from Origamid."
-          src="https://github.com/AlexWasHeree/Dogs"
+          src="https://dogs-seven-gules.vercel.app"
           mockup={<Iphone />}
         />
         <ProjectCard
           project="CupGuesser"
           description="CupGuesser is a web application made for doing hunches on Qatar's
-          2022 cup games, for fron-end i used react.js and for back-end node.js. it was a
+          2022 cup games, on fron-end it was used react.js and for back-end node.js. it is a
           project from a codar.me's bootcamp made on october from 2022."
-          src="https://github.com/AlexWasHeree/Dogs"
+          src="https://github.com/AlexWasHeree/CupGuesser"
           mockup={<Iphone />}
           rightCard
         />
