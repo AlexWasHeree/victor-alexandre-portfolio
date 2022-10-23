@@ -40,13 +40,25 @@ const Header = () => {
             </a>
           </div>
           <div className={styles.socials}>
-            <a href="https://github.com/AlexWasHeree">
+            <a
+              href="https://github.com/AlexWasHeree"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github />
             </a>
-            <a href="https://www.linkedin.com/in/victor-alexandre-cavalcanti-macedo-2344a8245/">
+            <a
+              href="https://www.behance.net/8c277545"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Behance />
             </a>
-            <a href="https://www.linkedin.com/in/victor-alexandre-cavalcanti-macedo-2344a8245/">
+            <a
+              href="https://www.linkedin.com/in/victor-alexandre-cavalcanti-macedo-2344a8245/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin />
             </a>
           </div>
