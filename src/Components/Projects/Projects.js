@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 import { ReactComponent as MacBook } from '../../Assets/MacBook.svg';
 import { ReactComponent as Imac } from '../../Assets/iMac.svg';
 import { ReactComponent as Iphone } from '../../Assets/iPhone.svg';
+import { ReactComponent as IpadCup } from '../../Assets/ipadCupGuesser.svg';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -43,7 +44,7 @@ const Projects = () => {
           2022 cup games, on fron-end it was used react.js and for back-end node.js. it is a
           project from a codar.me's bootcamp made on october from 2022."
           src="https://github.com/AlexWasHeree/CupGuesser"
-          mockup={<Iphone />}
+          mockup={<IpadCup />}
           rightCard
         />
       </div>
