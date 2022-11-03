@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <div id="intro" className={styles.background}>
       <div className={`${styles.content} container`}>
-        <div className={styles.introText}>
+        <div className={`animeLeft ${styles.introText}`}>
           <h3>Hello! i'm</h3>
           <h1>Victor Alexandre</h1>
           <h2>Front-end developer &</h2>

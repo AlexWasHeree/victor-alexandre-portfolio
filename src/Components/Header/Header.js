@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div className={styles.background}>
-      <header className={styles.header}>
+      <header className={`animeUp ${styles.header}`}>
         <div className={`${styles.content} container`}>
           <a href="#intro">
             <Logo className={styles.logo} />

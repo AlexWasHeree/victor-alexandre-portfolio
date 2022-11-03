@@ -33,6 +33,59 @@ a {
   text-decoration: none;
 }
 
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: animeLeft .4s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeRight {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: animeLeft .4s forwards;
+}
+
+@keyframes animeRight {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeDown {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: animeLeft .4s forwards;
+}
+
+@keyframes animeDown {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeUp {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: animeLeft .6s forwards;
+}
+
+@keyframes animeUp {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;  
