@@ -12,21 +12,20 @@ body {
   --font-1: 'Fira Sans', sans-serif;
   --font-2: 'Poppins', sans-serif;
   --font-3: 'Roboto', sans-serif;
-  --color-01: #FFFFFF;
-  --color-02: #F8F3FF;
-  --color-03: #D4C7EF;
-  --color-04: #C2B2E3;
-  --color-05: #B09ED7;
-  --color-06: #A18ECA;
-  --color-07: #947FC2;
-  --color-08: #8870BC;
-  --color-09: #775EAE;
-  --color-10: #5E429A;
-  --color-11: #442A7D;
-  --color-12: #33196D;
-  --color-13: #1A0843;
-  --color-14: #09011C;
-
+  --color-01: #ffffff;
+  --color-02: #f8f3ff;
+  --color-03: #d4c7ef;
+  --color-04: #c2b2e3;
+  --color-05: #b09ed7;
+  --color-06: #a18eca;
+  --color-07: #947fc2;
+  --color-08: #8870bc;
+  --color-09: #775eae;
+  --color-10: #5e429a;
+  --color-11: #442a7d;
+  --color-12: #33196d;
+  --color-13: #1a0843;
+  --color-14: #09011c;
 }
 
 a {
@@ -35,8 +34,8 @@ a {
 
 .animeLeft {
   opacity: 0;
-  transform: translateX(-50px);
-  animation: animeLeft .4s forwards;
+  transform: translateX(-60px);
+  animation: animeLeft 0.6s forwards;
 }
 
 @keyframes animeLeft {
@@ -49,7 +48,7 @@ a {
 .animeRight {
   opacity: 0;
   transform: translateX(50px);
-  animation: animeLeft .4s forwards;
+  animation: animeLeft 0.4s forwards;
 }
 
 @keyframes animeRight {
@@ -62,7 +61,7 @@ a {
 .animeDown {
   opacity: 0;
   transform: translateY(40px);
-  animation: animeLeft .4s forwards;
+  animation: animeLeft 0.4s forwards;
 }
 
 @keyframes animeDown {
@@ -75,7 +74,7 @@ a {
 .animeUp {
   opacity: 0;
   transform: translateY(-40px);
-  animation: animeLeft .6s forwards;
+  animation: animeLeft 0.6s forwards;
 }
 
 @keyframes animeUp {
@@ -85,15 +84,15 @@ a {
   }
 }
 
-
 .container {
   max-width: 1200px;
-  margin: 0 auto;  
+  margin: 0 auto;
   padding-left: 32px;
   padding-right: 32px;
-} 
+}
 
-.title, h1 {
+.title,
+h1 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 500;
@@ -102,7 +101,8 @@ a {
   color: var(--color-14);
 }
 
-.subtitle, h2 {
+.subtitle,
+h2 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 500;
@@ -111,7 +111,8 @@ a {
   color: var(--color-10);
 }
 
-.thirdTitle, h3 {
+.thirdTitle,
+h3 {
   font-family: var(--font-1);
   font-style: normal;
   font-weight: 400;
@@ -138,7 +139,8 @@ a {
   color: var(--color-14);
 }
 
-.body, p {
+.body,
+p {
   font-family: var(--font-2);
   font-style: normal;
   font-weight: 400;
@@ -149,25 +151,29 @@ a {
 }
 
 @media (max-width: 900px) {
-  .title, h1 {
+  .title,
+  h1 {
     font-size: 3.5rem;
     line-height: 4rem;
   }
-  .subtitle, h2 {
+  .subtitle,
+  h2 {
     font-size: 2rem;
     line-height: 2.5rem;
   }
-  .thirdTitle, h3 {
+  .thirdTitle,
+  h3 {
     font-size: 1.1rem;
   }
   .functional {
     font-size: 1.125rem;
   }
   .subFunctional {
-    font-size: .9rem;
+    font-size: 0.9rem;
     line-height: 1rem;
   }
-  .body, p {
+  .body,
+  p {
     font-size: 1rem;
     line-height: 1.75rem;
   }
@@ -181,22 +187,26 @@ a {
 }
 
 @media (max-width: 800px) {
-  .body, p {
-    font-size: .9rem;
+  .body,
+  p {
+    font-size: 0.9rem;
     line-height: 1.5rem;
   }
 }
 
 @media (max-width: 500px) {
-  .title, h1 {
+  .title,
+  h1 {
     font-size: 3rem;
     line-height: 3.5rem;
   }
-  .subtitle, h2 {
+  .subtitle,
+  h2 {
     font-size: 1.75rem;
     line-height: 2.125rem;
   }
-  .thirdTitle, h3 {
+  .thirdTitle,
+  h3 {
     font-size: 1rem;
     line-height: 1.25rem;
   }
@@ -204,22 +214,26 @@ a {
     font-size: 1rem;
     line-height: 1.125rem;
   }
-  .body, p {
+  .body,
+  p {
     font-size: 0.85rem;
     line-height: 1.6rem;
   }
 }
 
 @media (max-width: 440px) {
-  .title, h1 {
+  .title,
+  h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
-  .subtitle, h2 {
+  .subtitle,
+  h2 {
     font-size: 1.25rem;
     line-height: 1.4rem;
   }
-  .thirdTitle, h3 {
+  .thirdTitle,
+  h3 {
     font-size: 0.9rem;
     line-height: 1.125rem;
   }
@@ -233,19 +247,23 @@ a {
 }
 
 @media (max-width: 360px) {
-  .title, h1 {
+  .title,
+  h1 {
     font-size: 2rem;
     line-height: 2.125rem;
   }
-  .subtitle, h2 {
+  .subtitle,
+  h2 {
     font-size: 1rem;
     line-height: 1.1rem;
   }
-  .thirdTitle, h3 {
+  .thirdTitle,
+  h3 {
     font-size: 0.8rem;
     line-height: 1rem;
   }
-  .body, p {
+  .body,
+  p {
     font-size: 0.8rem;
     line-height: 1.4rem;
   }

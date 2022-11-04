@@ -10,7 +10,7 @@ const About = () => {
     <div id="about" className={styles.background}>
       <div className={`${styles.content} container`}>
         <h1>About me</h1>
-        <div className={styles.text}>
+        <div data-aos="fade-up" className={styles.text}>
           <p>
             I am currently a student of Computer Science at The Federal
             University of Campina Grande and have been studying programming and
