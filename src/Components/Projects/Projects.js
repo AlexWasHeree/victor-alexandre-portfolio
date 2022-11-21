@@ -13,10 +13,10 @@ const Projects = () => {
         <h1>My Projects</h1>
         <ProjectCard
           project="Moview"
-          description="Moview is a website where you can rate several movies that 
-          are storaged in a database. It was my first project realized on 
-          the spring-react week. I used react.js and springboot on this 
-          application."
+          description="Moview is a movie rating website where you
+          can rate movies and see a specific movie rating. For the front-end i used React.js and
+          bootstrap for the css styles. On the back-end, i used Springboot, making a basic authentication
+          system and some simple requests for the movie rating logic."
           src="https://alexmoview.netlify.app/"
           mockup={<MacBook />}
         />
@@ -31,18 +31,19 @@ const Projects = () => {
         />
         <ProjectCard
           project="Dogs"
-          description="Dogs is a social network for photos of dogs containing info
-          like weight, name and race. It was made with React.js and 
-          consumes an API made on Wordpress. It was my last project
-          from Origamid."
+          description="Dogs is a social network for dogs based on instagram. It contains a feed of
+          photos with a comment section and info about the dog on the posted picture. It has a infinite
+          scrolling feed and a personal feed. For the front-end i used React.js and css modules. The back-end consumes 
+          an wordpress API with authentication system."
           src="https://dogs-seven-gules.vercel.app"
           mockup={<Iphone />}
         />
         <ProjectCard
           project="CupGuesser"
           description="CupGuesser is a web application made for doing hunches on Qatar's
-          2022 cup games, on fron-end it was used react.js and for back-end node.js. it is a
-          project from a codar.me's bootcamp made on october from 2022."
+          2022 cup games. It has authentication system and saves all the hunches based on
+          the profile logged in. For the front-end i used React.js and tailwind for the styling.
+          On the back-end it was used node.js with prisma orm and koa for routing and cors configuration."
           src="https://github.com/AlexWasHeree/CupGuesser"
           mockup={<IpadCup />}
           rightCard
