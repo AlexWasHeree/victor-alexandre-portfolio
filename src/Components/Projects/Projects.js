@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id="projects" className={styles.background}>
       <div className={`${styles.content} container`}>
-        <h1>My Projects</h1>
+        <h1>Meus Projetos</h1>
         <ProjectCard
           project="Moview"
           description="Moview é um site de avaliações de filmes que oferece aos usuários a possibilidade de visualizar as notas atribuídas pelos outros usuários. A plataforma foi desenvolvida utilizando React.js e Bootstrap para o front-end e Springboot para o back-end. Além disso, o site oferece autenticação de e-mail para garantir a segurança das avaliações e uma lógica simples para o cálculo e exibição das notas. Infelizmente, atualmente o site está fora do ar devido às políticas de pacotes gratuitos do Heroku.
