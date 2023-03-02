@@ -9,14 +9,17 @@ const About = () => {
   return (
     <div id="about" className={styles.background}>
       <div className={`${styles.content} container`}>
-        <h1>About me</h1>
+        <h1>Sobre</h1>
         <div data-aos="fade-up" className={styles.text}>
           <p>
-            I am currently a student of Computer Science at The Federal
-            University of Campina Grande and have been studying programming and
-            design since 2019. So far i learned front-end, ux/ui design and
-            motion design. I love what i do and look forward to learn more and
-            keep improving my skills.
+            Sou um estudante de Ciência da Computação atualmente matriculado na
+            Universidade Federal de Campina Grande, e venho estudando
+            programação desde 2019. Tenho trabalhado em vários projetos que me
+            permitiram desenvolver minhas habilidades em diferentes áreas, como
+            frontend, backend e UX/UI design. Estou sempre buscando aprender
+            mais e aprimorar minhas habilidades, e tenho paixão pelo que faço.
+            Como entusiasta da tecnologia, estou muito animado para continuar
+            crescendo e prosperando neste mercado em constante evolução.
           </p>
         </div>
         <Deco1 className={`${styles.decorations} ${styles.deco1}`} />

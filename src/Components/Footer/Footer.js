@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div id="contact" className={styles.background}>
       <footer className={`${styles.content} container`}>
-        <h1>Contact me</h1>
+        <h1>Contato</h1>
         <div className={styles.contactInfo}>
           <a href="tel:+5583986463470">
             <h3>+55 (83) 98646-3470</h3>
@@ -16,7 +16,7 @@ const Footer = () => {
           <a href="mailto:victoralexandre2303@gmail.com">
             <h3>victoralexandre2303@gmail.com</h3>
           </a>
-          <h3>Campina Grande - PB - Brazil</h3>
+          <h3>Campina Grande - PB - Brasil</h3>
         </div>
         <div className={styles.socialsFooter}>
           <a href="https://github.com/AlexWasHeree">

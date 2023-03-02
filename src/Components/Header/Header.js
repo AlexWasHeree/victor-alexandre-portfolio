@@ -30,13 +30,13 @@ const Header = () => {
           </a>
           <div className={styles.menu}>
             <a href="#about" className="subFunctional">
-              ABOUT
+              SOBRE
             </a>
             <a href="#projects" className="subFunctional">
-              PROJECTS
+              PROJETOS
             </a>
             <a href="#contact" className="subFunctional">
-              CONTACT
+              CONTATO
             </a>
           </div>
           <div className={styles.socials}>
@@ -74,17 +74,17 @@ const Header = () => {
           <aside id="id" className={`${aside} ${styles.menuLateral}`}>
             <div>
               <a href="#about" className="subFunctional">
-                ABOUT
+                SOBRE
               </a>
             </div>
             <div>
               <a href="#projects" className="subFunctional">
-                PROJECTS
+                PROJETOS
               </a>
             </div>
             <div>
               <a href="#contact" className="subFunctional">
-                CONTACT
+                CONTATO
               </a>
             </div>
           </aside>
