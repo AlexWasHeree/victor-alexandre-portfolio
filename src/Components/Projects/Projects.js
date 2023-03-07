@@ -15,7 +15,7 @@ const Projects = () => {
           project="Moview"
           description="Moview é um site de avaliações de filmes que oferece aos usuários a possibilidade de visualizar as notas atribuídas pelos outros usuários. A plataforma foi desenvolvida utilizando React.js e Bootstrap para o front-end e Springboot para o back-end. Além disso, o site oferece autenticação de e-mail para garantir a segurança das avaliações e uma lógica simples para o cálculo e exibição das notas. Infelizmente, atualmente o site está fora do ar devido às políticas de pacotes gratuitos do Heroku.
           "
-          src="https://alexmoview.netlify.app/"
+          src="https://github.com/AlexWasHeree/Moview"
           mockup={<MacBook />}
         />
         <ProjectCard
@@ -28,16 +28,13 @@ const Projects = () => {
         />
         <ProjectCard
           project="Dogs"
-          description="Dogs is a social network for dogs based on instagram. It contains a feed of
-          photos with a comment section and info about the dog on the posted picture. It has a infinite
-          scrolling feed and a personal feed. For the front-end i used React.js and css modules. The back-end consumes 
-          an wordpress API with authentication system."
+          description="Dogs é uma plataforma de rede social especializada em compartilhamento de fotos de cachorros, incluindo informações como peso, raça e nome. Desenvolvida com uma API personalizada em WordPress e construída com React.js e CSS modules, a plataforma apresenta funcionalidades como postagem de fotos, scroll infinito e autenticação de usuários para maior segurança e privacidade. Em resumo, Dogs é uma plataforma única e exclusiva para amantes de cachorros que buscam compartilhar suas fotos e informações com uma comunidade dedicada."
           src="https://dogs-seven-gules.vercel.app"
           mockup={<Iphone />}
         />
         <ProjectCard
           project="CupGuesser"
-          description="- Cupguesser é uma aplicação web criada para os usuários poderem palpitar nos jogos da Copa do Mundo do Qatar de 2022. O site conta com autenticação de usuário, garantindo segurança e privacidade nas apostas. Para construir o front-end, foi utilizado React.js e TailwindCSS, enquanto no back-end foi implementado Node.js com Prisma e Koa para o roteamento e configuração de cors. Infelizmente, o banco de dados está hibernando no momento, portanto, não é possível utilizar a aplicação no momento.
+          description="Cupguesser é uma aplicação web criada para os usuários poderem palpitar nos jogos da Copa do Mundo do Qatar de 2022. O site conta com autenticação de usuário, garantindo segurança e privacidade nas apostas. Para construir o front-end, foi utilizado React.js e TailwindCSS, enquanto no back-end foi implementado Node.js com Prisma e Koa para o roteamento e configuração de cors. Infelizmente, o banco de dados está hibernando no momento, portanto, não é possível utilizar a aplicação no momento.
           "
           src="https://github.com/AlexWasHeree/CupGuesser"
           mockup={<IpadCup />}
