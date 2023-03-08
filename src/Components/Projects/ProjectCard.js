@@ -17,7 +17,7 @@ const ProjectCard = ({
           <h2>{project}</h2>
           <p>{description}</p>
           <a href={src} target="_blank" rel="noopener noreferrer">
-            <Button content="Visit" color="#8870BC" />
+            <Button content="Visitar" color="#8870BC" />
           </a>
         </div>
         <div className={styles.mockup} data-aos="fade-left">
@@ -35,7 +35,7 @@ const ProjectCard = ({
           <h2>{project}</h2>
           <p>{description}</p>
           <a href={src} target="_blank" rel="noopener noreferrer">
-            <Button content="Visit" color="#8870BC" />
+            <Button content="Visitar" color="#8870BC" />
           </a>
         </div>
       </div>
